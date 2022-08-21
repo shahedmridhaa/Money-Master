@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Money Master </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <h1 class="fw-bold text-center my-5 text-success"> Money Master </h1>
+    </header>
+
+    <main>
+        <!-- main section -->
+
+        <section class="my-5">
+            <div class="container">
+                <div class="row">
+                    <col-lg-6 class="col-md-6 col-sm-12">
+
+                        <div class="image bg-light p-5 rounded">
+
+                            <img class="img-fluid rounded" src="./image/tv.png" alt="">
+
+                        </div>
+
+
+                    </col-lg-6>
+                    <col-lg-6 class=" col-md-6 col-sm-12">
+
+                        <div class="money p-5 bg-light rounded text-center fw-bold">
+                            <!-- income -->
+                            <div class="mb-3">
+                                <h2 class="mb-3"> income</h2>
+                                <span class=" label"> income: </span> <input id="income" class="field" type=" text">
+                                <br>
+                            </div>
+                            <!-- expences -->
+                            <div class="mb-3 text-center">
+                                <h2 class="mb-3"> Expenses</h2>
+                                <p class="mb-2 item">Food: <input class="field" id="food" class="field" type="text"></p>
+                                <p class="mb-2 item">Rent: <input id="rent" class="field" type="text"></p>
+                                <p class="mb-2 item">Clothes: <input id="clothe" class="field" type="text"></p>
+                                <!-- calculate buton -->
+                                <button id="calc-btn"
+                                    class="px-3 py-2 bg-primary rounded-lg border border-0 text-white fw-bold">
+                                    Calculate</button>
+
+                                <h3> Toala Expences: <span id="total-expences">2000</span></h3>
+                                <h3> Balance: <span id="balance">2000</span></h3>
+
+                            </div>
+
+                            <!-- extra part -->
+
+                            <div class="fw-bold">
+                                <span class="label">Save:</span> <input id="save-field" class="field w-25"
+                                    type="text"><span>%</span>
+                                <!-- save button -->
+                                <button id="save-btn"
+                                    class="px-3 py-2 bg-primary rounded-lg border w-25 border-0 text-white fw-bold">
+                                    Save
+                                </button>
+                                <h3> Saving Amount: <span id="save-amount">2000</span></h3>
+                                <h3> Remaning Balance: <span id="last-balance">2000</span></h3>
+                            </div>
+
+
+
+                        </div>
+
+                    </col-lg-6>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+    <!-- javascript -->
+
+    <script src="./js/library.js"></script>
+    <script src="./js/app.js"></script>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
